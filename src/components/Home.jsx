@@ -4,7 +4,6 @@ import Header from "./Header";
 const Home = () => {
   return (
     <div>
-      <Header></Header>
       <div className="relative">
         <img
           src="https://www.nist.gov/sites/default/files/styles/960_x_960_limit/public/images/2020/07/30/women-ai-blogFeaturedImage-763-2.png?itok=0LSjyqlY?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
