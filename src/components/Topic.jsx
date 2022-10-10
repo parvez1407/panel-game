@@ -9,7 +9,7 @@ const Topic = ({ topic }) => {
         <div className="relative w-full h-full">
           <img
             src={logo}
-            className="object-cover w-full h-full rounded-t"
+            className="object-cover w-full h-full rounded-t bg-indigo-200"
             alt="Plan"
           />
         </div>

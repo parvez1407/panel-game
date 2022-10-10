@@ -4,7 +4,6 @@ import Topic from "./Topic";
 
 const Home = () => {
   const topics = useContext(TopicsContext);
-  console.log(topics);
   return (
     <div>
       <div className="relative">
