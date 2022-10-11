@@ -59,9 +59,30 @@ const Blog = () => {
               Write few lines about useRef.
             </p>
             <p className="text-gray-700">
-              A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear. I didn't even know we were calling him Big
-              Bear.
+              The useRef Hook allows you to persist values between renders. It
+              can be used to store a mutable value that does not cause a
+              re-render when updated. It can be used to access a DOM element
+              directly.
+              <br />
+              <br />
+              Does Not Cause Re-renders
+              <br />
+              If we tried to count how many times our application renders using
+              the useState Hook, we would be caught in an infinite loop since
+              this Hook itself causes a re-render.
+              <br /> <br />
+              Accessing DOM Elements
+              <br />
+              In general, we want to let React handle all DOM manipulation. But
+              there are some instances where useRef can be used without causing
+              issues. In React, we can add a ref attribute to an element to
+              access it directly in the DOM.
+              <br /> <br />
+              Tracking State Changes
+              <br />
+              The useRef Hook can also be used to keep track of previous state
+              values. This is because we are able to persist useRef values
+              between renders.
             </p>
           </div>
         </div>
