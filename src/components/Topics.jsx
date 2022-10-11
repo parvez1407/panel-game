@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useLoaderData, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { TopicsContext } from "./Root";
 import Topic from "./Topic";
 
@@ -14,9 +14,9 @@ const Topics = () => {
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
-            <span className="relative">Choose</span>
+            <span className="relative">Welcome</span>
           </span>{" "}
-          your way. Advance everyday.
+          to <span className="text-indigo-700">PANEL GAMES...</span>
         </h2>
       </div>
       <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-4 xl:max-w-screen-lg sm:mx-auto">

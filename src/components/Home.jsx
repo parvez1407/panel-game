@@ -22,13 +22,14 @@ const Home = () => {
             <div className="flex flex-col items-center justify-center xl:flex-row lg:py-25">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                  The quick, brown fox <br className="hidden md:block" />
-                  jumps over a <span className="text-indigo-500">lazy dog</span>
+                  Get Smarter With Panel-Game.{" "}
+                  <br className="hidden md:block" />
+                  Train Your Brain with
+                  <span className="text-indigo-500"> Different Quizes.</span>
                 </h2>
                 <p className="max-w-xl mb-4 text-base text-gray-400 md:text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudan, totam rem aperiam, eaque ipsa
-                  quae.
+                  Play daily to improve your programming skill and knowledge.
+                  Sharpen your mind and your skills. It's fun easy and free!!!
                 </p>
               </div>
             </div>
@@ -39,9 +40,9 @@ const Home = () => {
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
-              <span className="relative">Choose</span>
+              <span className="relative">Welcome</span>
             </span>{" "}
-            your way. Advance everyday.
+            to <span className="text-indigo-700">PANEL GAMES...</span>
           </h2>
         </div>
         <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-4 xl:max-w-screen-lg sm:mx-auto">
