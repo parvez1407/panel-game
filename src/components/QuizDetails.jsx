@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 import QuizOptions from "./QuizOptions";
 
 const QuizDetails = ({ ques }) => {
@@ -7,13 +8,13 @@ const QuizDetails = ({ ques }) => {
 
   const handleCorrectOptions = (correct) => {
     if (correctAnswer === correct) {
-      alert("correct");
+      toast.success("Your Answer is Correct", { autoClose: 500 });
     } else {
-      alert("not correct");
+      toast.warning("Wrong Answer", { autoClose: 500 });
     }
   };
   const handleCorrectAnswer = () => {
-    alert(correctAnswer);
+    toast.info(correctAnswer, { autoClose: 1000 });
   };
 
   return (
