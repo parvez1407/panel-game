@@ -2,9 +2,8 @@ import React from "react";
 import { toast } from "react-toastify";
 import QuizOptions from "./QuizOptions";
 
-const QuizDetails = ({ ques }) => {
+const QuizDetails = ({ ques, index }) => {
   const { id, question, options, correctAnswer } = ques;
-  console.log(ques, id);
 
   const handleCorrectOptions = (correct) => {
     if (correctAnswer === correct) {
@@ -42,7 +41,9 @@ const QuizDetails = ({ ques }) => {
           </svg>
         </button>
       </div>
-      <h1 className="text-lg font-medium text-indigo-600 mb-6">{question}</h1>
+      <h1 className="text-lg font-medium text-indigo-600 mb-6">
+        Question-{index + 1}: {question.replace(/(<([^>]+)>)/gi, "")}
+      </h1>
       <div className="grid max-w-md gap-10 p-6 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-2 xl:max-w-screen-lg sm:mx-auto">
         {options.map((option) => (
           <QuizOptions
