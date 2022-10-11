@@ -4,7 +4,7 @@ This Projects was created with the help of tailwind, react-js, react router, her
 
 ## Live Link
 
-Hosted in Netlify ->[]()
+Hosted in Netlify ->[Live Link](https://panel-game.netlify.app/)
 
 ## Context API
 
