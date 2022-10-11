@@ -1,9 +1,14 @@
 import React, { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { TopicsContext } from "./Root";
 import Topic from "./Topic";
 
 const Home = () => {
   const topics = useContext(TopicsContext);
+  const navigate = useNavigate();
+  const handleTakeTour = (id) => {
+    navigate(`/topics/topic/${id}`);
+  };
   return (
     <div>
       <div className="relative">
@@ -41,7 +46,11 @@ const Home = () => {
         </div>
         <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-4 xl:max-w-screen-lg sm:mx-auto">
           {topics.map((topic) => (
-            <Topic key={topic.id} topic={topic}></Topic>
+            <Topic
+              key={topic.id}
+              topic={topic}
+              handleTakeTour={handleTakeTour}
+            ></Topic>
           ))}
         </div>
       </div>
