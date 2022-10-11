@@ -1,5 +1,9 @@
 # Panel-Game
 
+Get Smarter With Panel-Game.
+Train Your Brain with Different Quizes.
+Play daily to improve your programming skill and knowledge. Sharpen your mind and your skills. It's fun easy and free!!!
+
 This Projects was created with the help of tailwind, react-js, react router, hero icons, recharts, toastify.
 
 ## Live Link
@@ -14,7 +18,6 @@ Hosted in Netlify ->[Live Link](https://panel-game.netlify.app/)
 ## Resources & Credits
 
 Tailwind Components ->
-[Mamba UI](https://www.mambaui.com/)
 [Kitwind](https://kitwind.io/products/kometa/components)
 
 Others ->
