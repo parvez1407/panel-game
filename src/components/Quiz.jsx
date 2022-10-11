@@ -13,12 +13,7 @@ const Quiz = () => {
       </h3>
       <div className="grid max-w-md gap-10 row-gap-8 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-1 xl:max-w-screen-lg sm:mx-auto">
         {questions.map((ques, index) => (
-          <QuizDetails
-            key={ques.id}
-            ques={ques}
-            questions={questions}
-            index={index}
-          ></QuizDetails>
+          <QuizDetails key={ques.id} ques={ques} index={index}></QuizDetails>
         ))}
       </div>
     </div>
