@@ -1,10 +1,9 @@
 import React from "react";
 
-const QuizOptions = () => {
+const QuizOptions = ({ option, handleCorrectOptions }) => {
   return (
-    <div>
-      <h1>dfkjlsd</h1>
-      <h1>dfkjlsd</h1>
+    <div className="bg-indigo-100 rounded shadow-sm hover:shadow py-2">
+      <button onClick={() => handleCorrectOptions(option)}>{option}</button>
     </div>
   );
 };
